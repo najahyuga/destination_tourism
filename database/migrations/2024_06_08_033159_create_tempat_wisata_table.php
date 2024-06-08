@@ -18,7 +18,8 @@ return new class extends Migration
             $table->string('image_tw');
             $table->unsignedBigInteger('daerah_wisata_id');
             $table->foreign('daerah_wisata_id')->references('id')->on('daerah_wisata')->cascadeOnDelete()->cascadeOnUpdate();
-            $table->integer('id_kategori')->unsigned();
+            $table->unsignedBigInteger('kategori_id');
+            $table->foreign('kategori_id')->references('id')->on('kategori')->cascadeOnDelete()->cascadeOnUpdate();
             $table->timestamps();
         });
     }
@@ -28,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('tempat_wisatas');
+        Schema::dropIfExists('tempat_wisata');
     }
 };
