@@ -14,4 +14,9 @@ class DaerahWisata extends Model
     protected $fillable = [
         'name_dw',
     ];
+
+    public function tempatWisata()
+    {
+        return $this->hasMany(TempatWisata::class, 'daerah_wisata_id');
+    }
 }
