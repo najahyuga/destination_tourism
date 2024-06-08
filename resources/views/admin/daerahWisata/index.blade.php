@@ -112,7 +112,7 @@
 
                 <!-- Start like Nav -->
                 <li class="nav-item">
-                    <a class="nav-link collapsed" href="/">
+                    <a class="nav-link collapsed" href="/like">
                         <i class="bi bi-grid"></i>
                         <span>Data Like</span>
                     </a>
@@ -120,7 +120,7 @@
 
                 <!-- Start Users Nav -->
                 <li class="nav-item">
-                    <a class="nav-link collapsed" href="/">
+                    <a class="nav-link collapsed" href="/user">
                         <i class="bi bi-grid"></i>
                         <span>Data Users</span>
                     </a>
@@ -153,12 +153,12 @@
                     </a>
                     <ul id="kategoriWisata-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
                         <li>
-                            <a href="">
+                            <a href="/kategoriWisata">
                                 <i class="bi bi-circle"></i><span>Kategori Wisata Data</span>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="kategoriWisata/create">
                                 <i class="bi bi-circle"></i><span>Add Kategori Wisata</span>
                             </a>
                         </li>
@@ -173,12 +173,12 @@
                     </a>
                     <ul id="tempatWisata-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
                         <li>
-                            <a href="">
+                            <a href="/tempatWisata">
                                 <i class="bi bi-circle"></i><span>Tempat Wisata Data</span>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/tempatWisata/create">
                                 <i class="bi bi-circle"></i><span>Add Tempat Wisata</span>
                             </a>
                         </li>
@@ -193,12 +193,12 @@
                     </a>
                     <ul id="fasilitasWisata-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
                         <li>
-                            <a href="">
+                            <a href="/fasilitasWisata">
                                 <i class="bi bi-circle"></i><span>Fasilitas Wisata Data</span>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/fasilitasWisata/create">
                                 <i class="bi bi-circle"></i><span>Add Fasilitas Wisata</span>
                             </a>
                         </li>
@@ -213,12 +213,12 @@
                     </a>
                     <ul id="imageWisata-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
                         <li>
-                            <a href="">
+                            <a href="/imageWisata">
                                 <i class="bi bi-circle"></i><span>Image Wisata Data</span>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/imageWisata/create">
                                 <i class="bi bi-circle"></i><span>Add Image Wisata</span>
                             </a>
                         </li>
