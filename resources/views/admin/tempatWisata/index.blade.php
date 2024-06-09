@@ -217,7 +217,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/imageWisata">
+                            <a href="/imageWisata/create">
                                 <i class="bi bi-circle"></i><span>Add Image Wisata</span>
                             </a>
                         </li>
