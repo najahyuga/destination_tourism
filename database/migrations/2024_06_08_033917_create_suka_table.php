@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('tempat_wisata_id');
             $table->foreign('tempat_wisata_id')->references('id')->on('tempat_wisata')->cascadeOnDelete()->cascadeOnUpdate();
+
+            $table->string('name_user');
             $table->timestamps();
         });
     }
