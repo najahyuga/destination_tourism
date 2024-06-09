@@ -5,6 +5,7 @@ use App\Http\Controllers\DaerahWisataController;
 use App\Http\Controllers\FasilitasController;
 use App\Http\Controllers\ImageController;
 use App\Http\Controllers\KategoriWisataController;
+use App\Http\Controllers\SukaController;
 use App\Http\Controllers\TempatWisataController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,3 +16,4 @@ Route::resource('/kategoriWisata', KategoriWisataController::class);
 Route::resource('/tempatWisata', TempatWisataController::class);
 Route::resource('fasilitasWisata', FasilitasController::class);
 Route::resource('imageWisata', ImageController::class);
+Route::get('/like', [SukaController::class, 'index'])->name('like.index');
